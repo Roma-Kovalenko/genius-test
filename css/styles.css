@@ -411,6 +411,7 @@ gap: 40px;
 
 .contact-text {
   color: var(--color-brand-dark);
+  margin-bottom: 42px;
 }
 
 /* Footer */
@@ -521,13 +522,76 @@ gap: 40px;
   max-width: 880px;
   height: 100%;
   max-height: 880px;
+  padding: 128px;
   background-color: var(--color-primary-light);
   border-radius: 32px;
+  overflow: auto;
 }
 
 .modal-btn-close {
   position: absolute;
   right: 40px;
   top: 40px;
-
 }
+
+/* Form */
+.form-section {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.text-form {
+  text-align: center;
+  color: var(--color-brand-dark);
+}
+
+.form-field {
+  margin-bottom: 32px;
+}
+
+.form-label {
+  display: block;
+}
+
+.form-input {
+  padding: 16px 42px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.17;
+  font-weight: 300;
+  color: var(--color-primary-dark);
+  background-color: transparent;
+  border: 1px solid var(--color-secondary-dark);
+  border-radius: 8px;
+}
+
+.form-input:focus {
+  border-color: var(--color-brand-normal);
+  outline: none;
+}
+
+.form-input::placeholder {
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--color-secondary-dark);
+}
+
+.form-input:focus::placeholder {
+  color: var(--color-primary-dark);
+}
+
+.form-button {
+  display: block;
+  margin: 0 auto 24px;
+  }
+
+  .form-terms {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .form-terms-link {
+    color: var(--color-primary-dark);
+    text-underline-offset: 2px;
+    }
